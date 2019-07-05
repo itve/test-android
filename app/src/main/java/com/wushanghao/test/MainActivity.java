@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.wushanghao.test.Button1.SlidingActivity;
-import com.wushanghao.test.Button2.SlidingTabActivity;
+import com.wushanghao.test.Button2.TabSlidingActivity;
 
 public class MainActivity extends Activity {
 
@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
         slidingTab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), SlidingTabActivity.class);
+                Intent intent = new Intent(getApplicationContext(), TabSlidingActivity.class);
                 startActivity(intent);
             }
         });

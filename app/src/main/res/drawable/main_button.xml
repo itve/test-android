@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--点击状态-->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/orange"></solid>
+            <stroke android:color="@color/red" android:width="1dp">
+            </stroke>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/white"></solid>
+            <padding android:top="10dp" android:bottom="10dp" android:left="40dp" android:right="40dp"></padding>
+            <stroke android:color="@color/red" android:width="1dp"></stroke>
+            <corners android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="5dp"
+                android:topLeftRadius="5dp"
+                android:topRightRadius="5dp"></corners>
+        </shape>
+    </item>
+</selector>

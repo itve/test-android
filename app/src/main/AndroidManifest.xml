@@ -19,6 +19,9 @@
         <activity android:name=".Button1.SlidingActivity" android:theme="@style/MyTranslucent">
 
         </activity>
+        <activity android:name=".Button2.TabSlidingActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+        </activity>
     </application>
 
 </manifest>

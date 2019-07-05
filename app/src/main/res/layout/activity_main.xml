@@ -26,4 +26,15 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/slidingTab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tab滑动"
+        android:background="@drawable/main_button"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/slidingFinish" />
+
 </android.support.constraint.ConstraintLayout>
