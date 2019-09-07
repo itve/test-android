@@ -12,4 +12,7 @@
 #### 顶部栏滑动[主要代码](https://github.com/itve/test-android/tree/master/app/src/main/java/com/wushanghao/test/Button2)
 示例图：<br>
 ![图片](https://github.com/itve/test-android/blob/master/example/button2.gif)<br>
-
+---
+第三个功能是:<br>
+#### 底部菜单栏[主要代码](https://github.com/itve/test-android/tree/master/app/src/main/java/com/wushanghao/test/Button3)
+![图片](https://github.com/itve/test-android/blob/master/example/button3.gif)<br>
