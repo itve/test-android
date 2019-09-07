@@ -9,10 +9,11 @@ import android.widget.Button;
 
 import com.wushanghao.test.Button1.SlidingActivity;
 import com.wushanghao.test.Button2.TabSlidingActivity;
+import com.wushanghao.test.Button3.MenuBottomActivity;
 
 public class MainActivity extends Activity {
 
-    private Button slidingFinish , slidingTab;
+    private Button slidingFinish , slidingTab ,bottomTab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,7 @@ public class MainActivity extends Activity {
 
         slidingFinish = findViewById(R.id.slidingFinish);
         slidingTab = findViewById(R.id.slidingTab);
+        bottomTab = findViewById(R.id.bottomTab);
 
     }
 
@@ -47,6 +49,14 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         });
+        bottomTab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MenuBottomActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 }

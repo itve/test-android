@@ -22,6 +22,9 @@
         <activity android:name=".Button2.TabSlidingActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
 
         </activity>
+        <activity android:name=".Button3.MenuBottomActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+        </activity>
     </application>
 
 </manifest>
